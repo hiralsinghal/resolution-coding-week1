@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(7, 7, 7);
+    color: rgb(255,255,255);
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.books-section {
+    padding: 50px 40px;
+}
+
+.book-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.book-row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.book-image img {
+    width: 50%;
+}
