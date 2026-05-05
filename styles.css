@@ -8,10 +8,14 @@ body {
 }
 
 .section-heading {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
     text-align: center;
 }
 
 .books-section {
+    background-color: rgb(28, 28, 28);
     padding: 50px 40px;
 }
 
@@ -27,5 +31,21 @@ body {
 }
 
 .book-image img {
-    width: 50%;
+    width: 300px;
+}
+
+.movies-section {
+    background-color: rgb(14, 14, 14);
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.movie-row:nth-child(even) {
+    margin: 15% 10px;
+}
+
+.movie-image img {
+    width: 300px;
 }
